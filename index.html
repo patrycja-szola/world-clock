@@ -3,15 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/style.css" />
     <title>World Clock - Patrycja Szoła</title>
-
   </head>
   <body>
-    <h1>World Clock</h1>
+    <div class="background-container">
+      <img
+        src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png"
+        alt=""
+      />
+      <div class="stars"></div>
+      <div class="twinkling"></div>
+      <div class="clouds"></div>
+    </div>
+    <div class="container">
+      <h1>World Clock</h1>
+      <select name="cities" id="cities">
+        <option value="">Please choose city..</option>
+        <option value="vegas">Las Vegas, US</option>
+        <option value="oslo">Oslo, Norway</option>
+        <option value="doha">Doha, Qatar</option>
+        <option value="pune">Pune, India</option>
+        <option value="osaka">Osaka, Japan</option>
+      </select>
+      <div class="city">
+        <h2>Los Angeles</h2>
+        <div class="date">October 8th 2023</div>
+        <div class="time">19:03 PM</div>
+      </div>
+      <div class="city">
+        <h2>Sydney</h2>
+        <div class="date">October 8th 2023</div>
+        <div class="time">19:03 PM</div>
+        
+      </div>
+    </div>
     <footer>
-      This project was coded by Patrycja Szoła and is
-      <a href="https://github.com/szyszka212/world-clock" target="_blank">open-sourced on GitHub</a>
+      This project was coded by <strong><em>Patrycja Szoła</em></strong> and is
+      <a href="https://github.com/szyszka212/world-clock" target="_blank"
+        >open-sourced on GitHub</a
+      >
     </footer>
     <script src="javascript/app.js"></script>
   </body>
