@@ -29,7 +29,19 @@ select {
   padding: 5px;
   border-radius: 10px;
   opacity: 50%;
-  min-width: 450px;
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 250px;
+    height: 60%;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  .date {
+    font-size: 12px;
+  }
 }
 
 .city {
@@ -60,8 +72,8 @@ select {
   font-size: 18px;
 }
 
-#all_cities{
-    text-decoration: none;
+#all_cities {
+  text-decoration: none;
 }
 
 footer {
