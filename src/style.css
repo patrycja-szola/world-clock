@@ -60,6 +60,10 @@ select {
   font-size: 18px;
 }
 
+#all_cities{
+    text-decoration: none;
+}
+
 footer {
   text-align: center;
   color: white;
